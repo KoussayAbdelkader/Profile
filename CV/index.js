@@ -1,7 +1,7 @@
 // For Skills
 
 
-  fetch('http://localhost:3000/skills')
+  fetch('https://koussay2022.herokuapp.com/skills')
   .then(response => response.json())
   .then(json => {
       var RH = document.getElementById('RH');
@@ -44,7 +44,7 @@
 
   // For Project
 
-  fetch('http://localhost:3000/project')
+  fetch('https://koussay2022.herokuapp.com/project')
   .then(response => response.json())
   .then(json => {
       var RH = document.getElementById('PR');
